@@ -1,0 +1,59 @@
+{
+  "name": "@ali-hm/angular-tree-component",
+  "version": "12.0.5",
+  "description": "A simple yet powerful tree component for Angular 14+",
+  "author": "ali-hm",
+  "homepage": "https://github.com/ali-hm/angular-tree-component",
+  "license": "MIT",
+  "repository": "https://github.com/ali-hm/angular-tree-component.git",
+  "bugs": {
+    "url": "https://github.com/ali-hm/angular-tree-component/issues"
+  },
+  "readme": "https://github.com/ali-hm/angular-tree-component/blob/master/README.md",
+  "keywords": [
+    "ng",
+    "angular",
+    "tree",
+    "treeview",
+    "tree-view",
+    "angular-tree",
+    "angular tree",
+    "ngtree",
+    "ng-tree",
+    "angular-treeview",
+    "angular-tree-component",
+    "angular tree component"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "mobx": "^6.10.2"
+  },
+  "dependencies": {
+    "mobx": "~4.14.1",
+    "tslib": "^2.0.0"
+  },
+  "exports": {
+    "./css/angular-tree-component.css": {
+      "style": "./css/angular-tree-component.css"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ali-hm-angular-tree-component.mjs",
+      "es2020": "./fesm2020/ali-hm-angular-tree-component.mjs",
+      "es2015": "./fesm2015/ali-hm-angular-tree-component.mjs",
+      "node": "./fesm2015/ali-hm-angular-tree-component.mjs",
+      "default": "./fesm2020/ali-hm-angular-tree-component.mjs"
+    }
+  },
+  "module": "fesm2015/ali-hm-angular-tree-component.mjs",
+  "es2020": "fesm2020/ali-hm-angular-tree-component.mjs",
+  "esm2020": "esm2020/ali-hm-angular-tree-component.mjs",
+  "fesm2020": "fesm2020/ali-hm-angular-tree-component.mjs",
+  "fesm2015": "fesm2015/ali-hm-angular-tree-component.mjs",
+  "typings": "index.d.ts",
+  "sideEffects": false
+}
